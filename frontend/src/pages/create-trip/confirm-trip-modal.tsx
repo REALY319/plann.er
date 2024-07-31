@@ -1,5 +1,6 @@
 import { Mail, User, X } from "lucide-react";
 import { FormEvent } from "react";
+import { Button } from "../../components/button";
 
 interface ConfirmTripModalProps {
   closeConfirmTripModal: () => void;
@@ -43,7 +44,7 @@ export function ConfirmTripModal({
             />
           </div>
 
-          <div className="bg-zinc-950 h-14 px-4 border border-zinc-800 rounded-lg flex items-center gap-2 mt-3">
+          <div className="bg-zinc-950 h-14 px-4 border border-zinc-800 rounded-lg flex items-center gap-2 mt-3 mb-6">
             <Mail className="text-zinc-400 size-5" />
             <input
               type="email"
@@ -54,12 +55,7 @@ export function ConfirmTripModal({
             />
           </div>
 
-          <button
-            type="submit"
-            className="bg-lime-300 text-lime-950 rounded-lg px-5 h-11 font-medium flex items-center justify-center gap-2 hover:bg-lime-400 transition-all w-full mt-6"
-          >
-            Confirmar minha presença
-          </button>
+          <Button size="full">Confirmar minha presença</Button>
         </form>
       </div>
     </div>
