@@ -10,13 +10,13 @@ export function ImportantLinks() {
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1.5">
             <span className="block font-medium text-zinc-100">
-              Reserva SESC
+              Reserva Hotel
             </span>
             <a
               href="#"
               className="block text-xs text-zinc-400 truncate hover:text-zinc-200 transition-all"
             >
-              https://www.sesc.com.br/rooms/104700011
+              https://www.hotel.com/
             </a>
           </div>
           <Link2 className="text-zinc-400 size-5 shrink-0" />
@@ -24,7 +24,7 @@ export function ImportantLinks() {
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1.5">
             <span className="block font-medium text-zinc-100">
-              Regras da casa
+              Regras da hotel
             </span>
             <a
               href="#"

@@ -23,12 +23,12 @@ export function ConfirmTripModal({
         <p className="text-sm text-zinc-400 mt-2">
           Para concluir a criação da viagem para{" "}
           <span className="font-semibold text-zinc-100">
-            Caldas Novas, Brazil
+            Tokyo, Japan
           </span>{" "}
           nas datas de{" "}
           <span className="font-semibold text-zinc-100">
             {" "}
-            03 a 11 de Agosto de 2024
+            05 a 15 de Outubro de 2025
           </span>{" "}
           preencha seus dados abaixo:
         </p>
